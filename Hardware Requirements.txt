@@ -1,0 +1,12 @@
+Hardware Requirements
+
+1. Arduino Board.
+2. Jumper Wires
+3. Thermo Sensor
+4. Heartbeat Sensor
+5. Humidity Sensor
+6. Steam Sensor
+7. Wi-Fi Module ESP8266 Node MCU 1.0
+8. Intel Gen 2
+9. ThingSpeak
+10. Android App Inventor2 

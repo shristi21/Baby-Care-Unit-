@@ -1,0 +1,28 @@
+Steps to run the project: 
+
+1) We need to include the required libraries for the sensors and the Wi-Fi module on the
+Arduino IDE, and these are to be included on the code.
+2) We need to declare four variables for the API key for the cloud server, ssid and password for
+making the connection with the network.
+3) The input pins for the sensors are to be defined according to the hardware connections.
+4) Now the Wi-Fi client (Arduino function needs to be added) for making the Node MCU
+understand the requirement.
+5) The void setup () function is used when we need to run a command once, in this field all the
+Serial outputs with delays are mentioned, to print the output of the serial monitor.
+6) The void loop() function is used when we need to run the command in a loop, in this field all
+the sensors are declared, with the dot operator function compiled with the imported library.
+7) client.print() function is used to send the HTTP POST request while connected with the
+network, through the network, to the cloud server .
+8) The Wi-Fi module used is to be included and installed from the board manager options on
+the Arduino IDE.
+9) The port is to be defined on which the ESP8266 is connected.
+10) After all these functions are included on the code, the code is compiled and uploaded on the
+ESP8266 (NodeMCU 1.0) Wi-Fi module, without errors.
+11) The uploaded code is then run and is visible on the serial monitor.
+12) The cloud server retrieves the data and visualizes the data in the form of a graph.
+16
+13) Now the data will be fetched from the cloud server to our application.
+14) i) The data from the sensors are taken as in input signal as an electronic signal in the human
+readable form.
+ii) The data is being retrieved from the NodeMCU (Esp8266) module, and is transferred on the
+cloud server, where the data is visualized in the form of a graph.
